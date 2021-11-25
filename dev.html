@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devolução</title>
+</head>
+<body>
+    <form action="principal.html">
+    <fieldset>
+        <legend><h2>Devolução</h2></legend>
+        <p><label for="">⋆Cliente:</label>
+            <select id="client">
+            <option value="1"></option>
+            <option value="2">Alex</option>
+            <option value="3">Eduarda</option>
+            <option value="4">Matheus</option>
+            </select>
+        <p>
+            <label for="">⋆Data de entrega:</label> <br>
+            <input type="date" id="dateEnt">
+        </p>
+        </p>
+        <p>
+            <label for="">⋆Status:</label>
+            <input type="radio" name="stts" id="stts1" checked= "checked">
+            <label for="stts1">No prazo</label>
+            <input type="radio" name="stts" id="stts2">
+            <label for="stts2">Atrasado</label>
+        </p>
+        <p>
+            <label for="">⋆Observações:</label> <br>
+            <textarea id="txtObs" cols="15" rows="3" placeholder="Observações..."></textarea>
+        </p>
+        <p>
+            <input type="submit" id="bttnConf" value="Confirmar"> &emsp;
+            <input type="reset" id="bttnLimp" value="Limpar">
+        </p>
+        <a href="principal.html"><img src="voltar.png" alt="Voltar para o menu principal" height="3%" width="2%"></a>
+    </fieldset>
+    </form>
+</body>
+</html>

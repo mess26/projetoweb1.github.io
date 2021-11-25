@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Filmes</title>
+</head>
+
+<body>
+    <form action="principal.html"></form>
+    <fieldset>
+        <legend><h2>Cadastro de Filmes</h2></legend>
+        <p>
+            <label for="">⋆Título:</label>
+            <input type="text" id="txtTitulo" placeholder="Título do filme">
+        </p>
+        <p>
+            <label for="">⋆Gênero:</label>
+            <select id="gen">
+                <option value="1">Ação</option>
+                <option value="2">Comédia</option>
+                <option value="3">Romance</option>
+                <option value="4">Ficção Científica</option>
+                <option value="5">Terror</option>
+                <option value="6">Guerra</option>
+                <option value="7">Aventura</option>
+                <option value="8">Fantasia</option>
+                <option value="9">Drama</option>
+                <option value="10">Documentário</option>
+            </select>
+        </p>
+        <p>
+            <label for="">⋆Prêmios:</label> <br>
+            <label for="Prêmios:"></label> <br>
+            <input type="checkbox" id="p1" value="">
+            <label for="p1">Prêmio BAFTA</label> <br>
+            <input type="checkbox" id="p2" value="">
+            <label for="p2">Oscar de melhor filme</label> <br>
+            <input type="checkbox" id="p3" value="">
+            <label for="p3">Oscar de melhor diretor</label> <br>
+            <input type="checkbox" id="p4" value="">
+            <label for="p4">Oscar de efeitos visuais</label> <br>
+            <input type="checkbox" id="p5" value="">
+            <label for="p5">Oscar de melhor ator ou atriz</label>
+        </p>
+        <p>
+            <label for="">⋆Descrição:</label> <br>
+            <textarea id="desc" cols="30" rows="5" placeholder="Descrição do filme..."></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Cadastrar" id="bttnCad"> &emsp;
+            <input type="reset" value="Limpar" id="bttnLimp">
+        </p>
+        <p>
+            <a href="cads.html"><img src="voltar.png" alt="Voltar para o menu principal" height="3%" width="2%"></a>
+        </p>
+
+    </fieldset>
+    </form>
+</body>
+
+</html>
